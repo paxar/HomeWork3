@@ -1,0 +1,57 @@
+.wrapper {
+    width: 800px;
+    margin:auto;
+}
+
+/*------------------main block---------------------*/
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+fieldset {
+    margin: 20px 0 20px 0;
+}
+legend {
+    font-weight: bold;
+}
+
+/*----------  fieldset_1  block   --------------*/
+
+.fieldset_1 li {
+    margin: 15px 0 15px 5px;
+}
+.radio_margin {
+    margin-left: 5px;
+}
+
+/*----------  fieldset_2  block   --------------*/
+.sex2 {
+   margin: 0;
+   font-size: 0.8em;
+}
+.textfield {
+    margin-top: 0;
+    font-size: 0.8em;
+}
+.header_textarea {
+    display: block;
+    font-weight: bold;
+}
+#multiselect {
+    display: block;
+    margin: 10px 0 20px 0;
+}
+
+/*----------  fieldset_3  block   --------------*/
+
+.email {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.fieldset_3 strong {
+    display: block;
+    margin-top: 20px;
+}
