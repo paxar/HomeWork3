@@ -39,7 +39,7 @@ legend {
     display: block;
     font-weight: bold;
 }
-#multiselect {
+#multiselect, .fieldset_2 b {
     display: block;
     margin: 10px 0 20px 0;
 }
@@ -54,4 +54,9 @@ legend {
 .fieldset_3 strong {
     display: block;
     margin-top: 20px;
+}
+
+.fieldset_3 b {
+    display: block;
+    margin-bottom: 10px;
 }

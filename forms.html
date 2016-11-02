@@ -14,6 +14,7 @@
     <form action="#">
         <fieldset class="fieldset_1">
             <legend>Коротко о себе</legend>
+
             <ul>
                 <li>
                     <label> Имя
@@ -76,9 +77,11 @@
                 </li>
             </ul>
 
-            <h4>Что вы обычно делаете на выходных</h4>
 
             <ul>
+                <li>
+                    <b>Что вы обычно делаете на выходных</b>
+                </li>
                 <li>
                     <input type="checkbox" name="sleeping" id="sleep">
                     <label for="sleep">Сплю</label>
@@ -96,9 +99,8 @@
                 </li>
             </ul>
 
-            <h4>Рассказать о формах в книге, посвященной HTML:</h4>
-
-            <select name="book">
+            <label for="book"><b>Рассказать о формах в книге, посвященной HTML:</b></label>
+            <select name="book" id="book">
                 <option disabled selected>Выберите книгу</option>
                 <option value="HTML5 и CSS3 для чайников">HTML5 и CSS3 для чайников</option>
                 <option value="HTML в Web-дизайне">HTML в Web-дизайне</option>
@@ -106,9 +108,11 @@
                 <option value="RTFM">Читаю маны в интернете</option>
             </select>
 
-            <h4>Сколько книг вы прочитали за свою жизнь</h4>
 
             <ul>
+                <li>
+                    <h4>Сколько книг вы прочитали за свою жизнь</h4>
+                </li>
                 <li>
                     <input type="radio" name="number_of_books" value="0-10" id="0-10">
                     <label for="0-10">0-10</label>
@@ -127,8 +131,8 @@
                 </li>
             </ul>
 
-            <span class="header_textarea">Ваши комментарии:</span>
-            <textarea name="comments" rows="10" cols="60"></textarea>
+            <label for="comments" class="header_textarea">Ваши комментарии:</label>
+            <textarea name="comments" id="comments" rows="10" cols="60"></textarea>
 
             <select name="position" multiple size="3" id="multiselect">
                 <option>Первая позиция</option>
@@ -138,9 +142,9 @@
 
         </fieldset>
 
-
         <fieldset class="fieldset_3">
             <legend>И в заключении</legend>
+
             <input type="text" value="Это поле было введено до вас" size="30" disabled>
 
             <label class="email" for="email">Email:</label>
@@ -162,8 +166,10 @@
                 </li>
             </ul>
 
-            <h4>На сколько сложная задача:</h4>
             <ul>
+                <li>
+                    <b>На сколько сложная задача:</b>
+                </li>
                 <li>
                     <input type="radio" name="difficult" value="easy" id="easy" checked>
                     <label for="easy">Совсем нет</label>
@@ -181,7 +187,6 @@
         </fieldset>
 
         <input type="submit">
-
 
     </form>
 
