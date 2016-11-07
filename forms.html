@@ -17,7 +17,7 @@
 
             <ul>
                 <li>
-                    <label> Имя
+                    <label><!-- корректнее разделять лейбл и инпут. А для чекбоксов и радио делать как сделал ты  -->
                         <input type="text" name="name" size="30">
                     </label>
                 </li>
@@ -79,11 +79,11 @@
 
 
             <ul>
-                <li>
+                <li><!-- это не самостойтельный пункт списка, я бы это вынес выше -->
                     <b>Что вы обычно делаете на выходных</b>
                 </li>
                 <li>
-                    <input type="checkbox" name="sleeping" id="sleep">
+                    <input type="checkbox" name="sleeping" id="sleep"><!-- name должен быть одинаковый для всех чекбоксов -->
                     <label for="sleep">Сплю</label>
                 </li>
                 <li>
@@ -131,6 +131,7 @@
                 </li>
             </ul>
 
+<!-- это все должно быть элементами списка -->
             <label for="comments" class="header_textarea">Ваши комментарии:</label>
             <textarea name="comments" id="comments" rows="10" cols="60"></textarea>
 
@@ -146,7 +147,7 @@
             <legend>И в заключении</legend>
 
             <input type="text" value="Это поле было введено до вас" size="30" disabled>
-
+<!-- и тут где-то должен был быть список -->
             <label class="email" for="email">Email:</label>
             <input type="email" name="email" id="email">
 
