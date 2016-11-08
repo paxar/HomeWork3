@@ -7,8 +7,8 @@
 
 
 ul {
-    list-style: none;
     padding-left: 0;
+    list-style: none;
 }
 fieldset {
     margin: 20px 0 20px 0;
@@ -39,7 +39,8 @@ legend {
     display: block;
     font-weight: bold;
 }
-#multiselect, .fieldset_2 b {
+#multiselect,
+.fieldset_2 b {
     display: block;
     margin: 10px 0 20px 0;
 }
